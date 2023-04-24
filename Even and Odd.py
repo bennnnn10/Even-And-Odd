@@ -14,3 +14,4 @@ with open("numbers.txt", "r") as numbers_txt_file, open("even.txt", "a") as even
             even_txt_file.write(f"{numbers}\n")
         else:
 #If odd, write it to the odd.txt file
+            odd_txt_file.write(f"{numbers}\n")
