@@ -8,6 +8,7 @@ with open("numbers.txt", "r") as numbers_txt_file, open("even.txt", "a") as even
     #Repeat the input file's lines
     for line in numbers_txt_file:
         numbers = int(line.strip())
-#Check if even
+        #Check if even
+        if numbers % 2 == 0:
 #If even, write it to the even.txt file
 #If odd, write it to the odd.txt file
