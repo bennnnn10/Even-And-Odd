@@ -11,6 +11,6 @@ with open("numbers.txt", "r") as numbers_txt_file, open("even.txt", "a") as even
         #Check if even
         if numbers % 2 == 0:
 #If even, write it to the even.txt file
-            even_txt_file.write("{num}")
+            even_txt_file.write(f"{numbers}\n")
         else:
 #If odd, write it to the odd.txt file
