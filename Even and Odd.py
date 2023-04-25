@@ -2,6 +2,8 @@
 #BSCPE 1-4
 #Object-Oriented Programming
 
+import pyfiglet
+
 def process():
 #Open the "numbers.txt" for reading, and "even.txt" and "odd.text" for appending
     with open("numbers.txt") as numbers_txt_file, open("even.txt", "a") as even_txt_file, open("odd.txt", "a") as odd_txt_file:
@@ -16,3 +18,8 @@ def process():
                 #If odd, write it to the odd.txt file
                 odd_txt_file.write(f"{numbers}\n")
 process()
+
+print("*" * 63)
+print(pyfiglet.figlet_format("SUCCESSFUL!"))
+print("*" * 63)
+
