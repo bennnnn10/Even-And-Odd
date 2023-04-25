@@ -23,3 +23,4 @@ print("*" * 63)
 print(pyfiglet.figlet_format("SUCCESSFUL!"))
 print("*" * 63)
 
+print("\n\033[35;1;3mPlease proceed to even and odd txt files to see the results.\033[0m")
